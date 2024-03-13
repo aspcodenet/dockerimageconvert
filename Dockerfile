@@ -8,4 +8,4 @@ RUN apt-get --fix-missing install -y imagemagick
 
 WORKDIR /my-images
 
-ENTRYPOINT ["convert"]
+ENTRYPOINT ["grep"]
