@@ -1,1 +1,1 @@
-docker run --rm -v=./images:/my-images:rw my-imagemagick -resize 100 /my-images/test.jpg /my-images/testsmall.jpg
+docker run -it --rm --volume=$(pwd)/images:/my-images imagemagick  -resize 100 testsmall.jpg testsmall2.jpg  
